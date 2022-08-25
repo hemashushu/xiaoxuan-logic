@@ -1,0 +1,3 @@
+function add_gate(bit a, bit b) -> (bit out) {
+    out = a & b
+} 
