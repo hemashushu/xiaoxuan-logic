@@ -1,5 +1,5 @@
 #!/bin/bash
-filename=blink
+filename=blink-48mhz
 pcf_file=../boards/iCESugar-v1.5/io.pcf
 
 mkdir -p target
@@ -17,7 +17,7 @@ echo "iCELink path: $ICELINK_DIR"
 
 if [ -d "$ICELINK_DIR" ]; \
 then \
-    # cp target/$filename.bin $ICELINK_DIR; \
+    cp target/$filename.bin $ICELINK_DIR; \
     echo "OK"; \
 else \
     echo "iCELink not found"; \

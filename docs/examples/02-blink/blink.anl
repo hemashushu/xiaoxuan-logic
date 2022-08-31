@@ -1,8 +1,8 @@
 #[clock]
 function blink() -> (bit led) {
     var number
-    let max = 4'b0111
+    let max = 4'b1000
     let next_number = (number == 0 ? max : number - 1)
     number = reg(next_number, max)
-    led = (number == 0)
+    led = (number > 4'b0100)
 }

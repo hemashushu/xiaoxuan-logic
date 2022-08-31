@@ -1,4 +1,4 @@
-# The XiaoXuan Logic Language
+# 小萱逻辑语言
 
 a modern, efficient and reusable hardware description language (HDL), the goal is to develop hardware just like open source software.
 
@@ -116,9 +116,9 @@ _小萱逻辑语言_ 吸收了很多现代编程语言的特性，具有较强�
 
 ### Chisel/SpinalHDL
 
-Chisel 和 SpinalHDL 都是比较新的硬件描述语言，具有较高的知名度，且有成功的应用案例。不过它们并不是全新设计的一门语言，而是基于 Scala 的领域特定语言（DSL）和一套库，所以单纯从语言方面来说它们会稍显复杂，而且程序的运行效率不高。
+Chisel 和 SpinalHDL 都是比较新的硬件描述语言，具有较高的知名度，且有成功的应用案例。不过它们并不是从头设计的一门语言，而是基于 Scala 的领域特定语言（DSL）和一套库，所以单纯从语言方面来说它们会稍显复杂，而且程序的运行效率不高。
 
-_小萱逻辑语言_ 受到了 Chisel 的启发（包括 [XiaoXuan Lang](https://github.com/hemashushu/xiaoxuan-lang) 也借鉴了 Scala 很多特性），然后再进行重新设计，在语言上显得非常简单、精炼，毫无含糊的、多余的东西，另外 _小萱逻辑语言_ 在验证（测试）时，会先编译成 WebAssembly 代码，然后再通过 [XiaoXuan VM](https://github.com/hemashushu/xiaoxuan-vm) JIT 即时编译运行，所以运行效率非常高，响应速度非常快，比起 Chisel 和 SpinalHDL，验证所需要的时间大大地减少，从而提高工作效率。
+_小萱逻辑语言_ 受到了 Chisel 的启发，语言是重新设计的，在语言上显得非常简单、精炼，毫无含糊的、多余的东西，另外 _小萱逻辑语言_ 在验证（测试）时，会先编译成 WebAssembly 代码，然后再通过 [XiaoXuan VM](https://github.com/hemashushu/xiaoxuan-vm) JIT 即时编译运行，所以运行效率非常高，响应速度非常快，比起 Chisel 和 SpinalHDL，验证所需要的时间大大地减少，从而提高工作效率。
 
 ## 从这里开始走起
 
@@ -126,3 +126,7 @@ _小萱逻辑语言_ 受到了 Chisel 的启发（包括 [XiaoXuan Lang](https:/
 2. [通过实例从零开始一步一步学习数字电路、FPGA 和 _小萱逻辑_ 语言](docs/examples/README.md)
 3. [通过实例从零开始一步一步学习自制 RISC-V CPU](docs/tutorial/README.md)
 4. [小萱逻辑语言参考手册](docs/reference/src/SUMMARY.md)
+
+## 常见问题
+
+TODO
